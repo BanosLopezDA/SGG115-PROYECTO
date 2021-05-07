@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<RasterMetaFile version="1.0">
+<Projection>
+	<WktProjection value="GEOGCS[WGS 84,DATUM[WGS_1984,SPHEROID[WGS 84,6378137,298.257223563,AUTHORITY[EPSG,7030]],AUTHORITY[EPSG,6326]],PRIMEM[Greenwich,0,AUTHORITY[EPSG,8901]],UNIT[degree,0.0174532925199433,AUTHORITY[EPSG,9122]],AUTHORITY[EPSG,4326]]"/>
+</Projection>
+<FLyrGeoRaster>
+	<Extent>
+			<X>-90.20394615579777</X>
+			<Y>14.545926726834857</Y>
+			<RotationX>-6.904893141400371E-6</RotationX>
+			<RotationY>-2.5487137158205646E-5</RotationY>
+			<PixelSizeX>0.0027431253032282276</PixelSizeX>
+			<PixelSizeY>-0.0026451109125638196</PixelSizeY>
+			<Width>2.6484604890517147</Width>
+			<Height>1.590475260458291</Height>
+	</Extent>
+	<Dimension>
+			<ImagePxWidth>964.0</ImagePxWidth>
+			<ImagePxHeight>592.0</ImagePxHeight>
+	</Dimension>
+</FLyrGeoRaster>
+</RasterMetaFile>
