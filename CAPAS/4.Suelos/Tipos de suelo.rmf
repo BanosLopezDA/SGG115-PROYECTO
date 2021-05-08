@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<RasterMetaFile version="1.0">
+<GeoPoints>
+	<GeoPoint n="0">
+		<PixelX>60.64831355299365</PixelX>
+		<PixelY>333.19567022714074</PixelY>
+		<MapX>-90.11864456726316</MapX>
+		<MapY>13.742155603436208</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="1">
+		<PixelX>197.5924581164615</PixelX>
+		<PixelY>222.30431414160097</PixelY>
+		<MapX>-89.73482643157914</MapX>
+		<MapY>14.037926371691599</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="2">
+		<PixelX>252.70412605053997</PixelX>
+		<PixelY>121.09925120811133</PixelY>
+		<MapX>-89.59036036269138</MapX>
+		<MapY>14.315745734937268</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="3">
+		<PixelX>259.7183383330591</PixelX>
+		<PixelY>79.6819977303796</PixelY>
+		<MapX>-89.57411861530164</MapX>
+		<MapY>14.416615534515696</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="4">
+		<PixelX>325.5183297452619</PixelX>
+		<PixelY>67.65763381748975</PixelY>
+		<MapX>-89.39374973639445</MapX>
+		<MapY>14.451663515725151</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="5">
+		<PixelX>428.5013350332979</PixelX>
+		<PixelY>82.54017151784582</PixelY>
+		<MapX>-89.10225311218899</MapX>
+		<MapY>14.402795802087581</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="6">
+		<PixelX>542.9227975856402</PixelX>
+		<PixelY>174.93684550377483</PixelY>
+		<MapX>-88.7959394552771</MapX>
+		<MapY>14.165936985987106</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="7">
+		<PixelX>656.2698802079136</PixelX>
+		<PixelY>289.35830805611727</PixelY>
+		<MapX>-88.4896257983652</MapX>
+		<MapY>13.85962332907521</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="8">
+		<PixelX>804.5343105574275</PixelX>
+		<PixelY>216.3004728114291</PixelY>
+		<MapX>-88.08536300697565</MapX>
+		<MapY>14.066206958155325</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="9">
+		<PixelX>830.3194288790821</PixelX>
+		<PixelY>285.59797830087587</PixelY>
+		<MapX>-88.00878459274769</MapX>
+		<MapY>13.873870475908321</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="10">
+		<PixelX>906.0632139489426</PixelX>
+		<PixelY>278.0773187903933</PixelY>
+		<MapX>-87.79685828360515</MapX>
+		<MapY>13.897022089512127</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="11">
+		<PixelX>931.3111423055627</PixelX>
+		<PixelY>332.87069522390937</PixelY>
+		<MapX>-87.73274612285616</MapX>
+		<MapY>13.743865261056179</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="12">
+		<PixelX>888.8731350678395</PixelX>
+		<PixelY>460.184716937079</PixelY>
+		<MapX>-87.85562776429174</MapX>
+		<MapY>13.419742670602895</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="13">
+		<PixelX>937.4888269034591</PixelX>
+		<PixelY>539.444654505347</PixelY>
+		<MapX>-87.71137540260648</MapX>
+		<MapY>13.193569214627251</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="14">
+		<PixelX>874.171217818046</PixelX>
+		<PixelY>554.908829452561</PixelY>
+		<MapX>-87.9037118848535</MapX>
+		<MapY>13.16329402760689</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="15">
+		<PixelX>529.4266267069269</PixelX>
+		<PixelY>513.7991187970509</PixelY>
+		<MapX>-88.82621464229746</MapX>
+		<MapY>13.259462268730392</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="16">
+		<PixelX>172.33131905272216</PixelX>
+		<PixelY>415.34303417825004</PixelY>
+		<MapX>-89.81537369385349</MapX>
+		<MapY>13.527613925196452</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+</GeoPoints>
+<FLyrGeoRaster>
+	<Extent>
+			<X>-90.28043082789829</X>
+			<Y>14.628126961585346</Y>
+			<RotationX>-7.60099512765278E-6</RotationX>
+			<RotationY>7.277896653531971E-6</RotationY>
+			<PixelSizeX>0.0027368646090985107</PixelSizeX>
+			<PixelSizeY>-0.002659574016897091</PixelSizeY>
+			<Width>2.6515799357727587</Width>
+			<Height>1.7676757252498394</Height>
+	</Extent>
+	<Dimension>
+			<ImagePxWidth>967.0</ImagePxWidth>
+			<ImagePxHeight>662.0</ImagePxHeight>
+	</Dimension>
+</FLyrGeoRaster>
+</RasterMetaFile>
