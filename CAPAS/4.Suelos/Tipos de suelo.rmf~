@@ -121,4 +121,23 @@
 		<Active>true</Active>
 	</GeoPoint>
 </GeoPoints>
+<FLyrGeoRaster>
+	<Extent>
+			<X>-90.28043082789829</X>
+			<Y>14.628126961585346</Y>
+			<RotationX>-7.60099512765278E-6</RotationX>
+			<RotationY>7.277896653531971E-6</RotationY>
+			<PixelSizeX>0.0027368646090985107</PixelSizeX>
+			<PixelSizeY>-0.002659574016897091</PixelSizeY>
+			<Width>2.6515799357727587</Width>
+			<Height>1.7676757252498394</Height>
+	</Extent>
+	<Dimension>
+			<ImagePxWidth>967.0</ImagePxWidth>
+			<ImagePxHeight>662.0</ImagePxHeight>
+	</Dimension>
+</FLyrGeoRaster>
+<ROI>
+	<ROIFile value="C:\Users\Daniel\Desktop\Proyecto-SGG115\CAPAS\4.Suelos\tiposSueloPuntos.shp"/>
+</ROI>
 </RasterMetaFile>
