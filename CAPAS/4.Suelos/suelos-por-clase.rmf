@@ -116,4 +116,15 @@
 			<ImagePxHeight>592.0</ImagePxHeight>
 	</Dimension>
 </FLyrGeoRaster>
+<Statistics>
+	<BandCount>4</BandCount>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+</Statistics>
 </RasterMetaFile>

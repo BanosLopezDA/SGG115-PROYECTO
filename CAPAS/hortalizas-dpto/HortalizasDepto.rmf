@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<RasterMetaFile version="1.0">
+<GeoPoints>
+	<GeoPoint n="0">
+		<PixelX>29.159442724458206</PixelX>
+		<PixelY>292.85681114551085</PixelY>
+		<MapX>-90.13259183328023</MapX>
+		<MapY>13.744276606805576</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="1">
+		<PixelX>219.39009287925697</PixelX>
+		<PixelY>63.746904024767744</PixelY>
+		<MapX>-89.5802217091212</MapX>
+		<MapY>14.426616171943206</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="2">
+		<PixelX>380.4613003095975</PixelX>
+		<PixelY>65.13544891640859</PixelY>
+		<MapX>-89.11314403060437</MapX>
+		<MapY>14.41036999182088</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="3">
+		<PixelX>140.24303405572755</PixelX>
+		<PixelY>370.6153250773994</PixelY>
+		<MapX>-89.80766823083374</MapX>
+		<MapY>13.524953175154195</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="4">
+		<PixelX>361.0216718266254</PixelX>
+		<PixelY>405.3289473684211</PixelY>
+		<MapX>-89.1700056610325</MapX>
+		<MapY>13.427476094420246</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="5">
+		<PixelX>485.9907120743034</PixelX>
+		<PixelY>152.61377708978324</PixelY>
+		<MapX>-88.79228197318847</MapX>
+		<MapY>14.170738835016595</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="6">
+		<PixelX>594.297213622291</PixelX>
+		<PixelY>256.75464396284826</PixelY>
+		<MapX>-88.4836045508643</MapX>
+		<MapY>13.870184502753592</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="7">
+		<PixelX>801.1904024767802</PixelX>
+		<PixelY>496.97291021671833</PixelY>
+		<MapX>-87.89468052143003</MapX>
+		<MapY>13.163475667432474</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="8">
+		<PixelX>731.7631578947369</PixelX>
+		<PixelY>185.93885448916407</PixelY>
+		<MapX>-88.0733885027756</MapX>
+		<MapY>14.069200209252067</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+	<GeoPoint n="9">
+		<PixelX>828.9613003095975</PixelX>
+		<PixelY>370.6153250773994</PixelY>
+		<MapX>-87.78612649970358</MapX>
+		<MapY>13.524214712421362</MapY>
+		<Active>true</Active>
+	</GeoPoint>
+</GeoPoints>
+<FLyrGeoRaster>
+	<Extent>
+			<X>-90.21641904701406</X>
+			<Y>14.605514574278857</Y>
+			<RotationX>-1.7518438800337307E-5</RotationX>
+			<RotationY>1.1371238268363424E-5</RotationY>
+			<PixelSizeX>0.0029255657843901615</PixelSizeX>
+			<PixelSizeY>-0.0029225347828922177</PixelSizeY>
+			<Width>2.633885168376949</Width>
+			<Height>1.6205166661003325</Height>
+	</Extent>
+	<Dimension>
+			<ImagePxWidth>897.0</ImagePxWidth>
+			<ImagePxHeight>551.0</ImagePxHeight>
+	</Dimension>
+</FLyrGeoRaster>
+<Statistics>
+	<BandCount>4</BandCount>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+	<Band>
+	</Band>
+</Statistics>
+</RasterMetaFile>
