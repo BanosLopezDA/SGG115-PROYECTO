@@ -1385,7 +1385,31 @@
         <se:Rule>
           <se:TextSymbolizer>
             <se:Label>
-              <!--SE Export for producto || ' cantidad :' || totplant not implemented yet-->Placeholder</se:Label>
+              <ogc:PropertyName>producto</ogc:PropertyName>
+            </se:Label>
+            <se:Font>
+              <se:SvgParameter name="font-family">MS Shell Dlg 2</se:SvgParameter>
+              <se:SvgParameter name="font-size">13</se:SvgParameter>
+            </se:Font>
+            <se:LabelPlacement>
+              <se:PointPlacement>
+                <se:AnchorPoint>
+                  <se:AnchorPointX>0</se:AnchorPointX>
+                  <se:AnchorPointY>0.5</se:AnchorPointY>
+                </se:AnchorPoint>
+              </se:PointPlacement>
+            </se:LabelPlacement>
+            <se:Fill>
+              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+            </se:Fill>
+            <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+          </se:TextSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:TextSymbolizer>
+            <se:Label>
+              <ogc:PropertyName>totplant</ogc:PropertyName>
+            </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">MS Shell Dlg 2</se:SvgParameter>
               <se:SvgParameter name="font-size">13</se:SvgParameter>
