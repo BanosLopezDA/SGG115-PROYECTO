@@ -1,415 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
     <se:Name>cultivo_yuca</se:Name>
     <UserStyle>
       <se:Name>cultivo_yuca</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>AHUACHAPAN</se:Name>
+          <se:Name>0 - 39</se:Name>
           <se:Description>
-            <se:Title>AHUACHAPAN</se:Title>
+            <se:Title>0 - 39</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>AHUACHAPAN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>0.10000000000000001</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>39.28999999999999915</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#e4b7e4</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>7</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>AHUACHPAN</se:Name>
+          <se:Name>39 - 78</se:Name>
           <se:Description>
-            <se:Title>AHUACHPAN</se:Title>
+            <se:Title>39 - 78</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>AHUACHPAN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>39.28999999999999915</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>78.47999999999998977</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#deb0e0</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>11</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>CABANIAS</se:Name>
+          <se:Name>78 - 118</se:Name>
           <se:Description>
-            <se:Title>CABANIAS</se:Title>
+            <se:Title>78 - 118</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>CABANIAS</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>78.47999999999998977</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>117.66999999999998749</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#d8a9dc</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>14</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>CHALATENANGO</se:Name>
+          <se:Name>118 - 157</se:Name>
           <se:Description>
-            <se:Title>CHALATENANGO</se:Title>
+            <se:Title>118 - 157</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>CHALATENANGO</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>117.66999999999998749</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>156.85999999999998522</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#d2a3d7</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>18</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>CUSCATLAN</se:Name>
+          <se:Name>157 - 196</se:Name>
           <se:Description>
-            <se:Title>CUSCATLAN</se:Title>
+            <se:Title>157 - 196</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>CUSCATLAN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>156.85999999999998522</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>196.04999999999998295</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc9cd3</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>21</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>LA LIBERTAD</se:Name>
+          <se:Name>196 - 235</se:Name>
           <se:Description>
-            <se:Title>LA LIBERTAD</se:Title>
+            <se:Title>196 - 235</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>LA LIBERTAD</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>196.04999999999998295</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>235.23999999999998067</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#c695cf</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>25</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>LA PAZ</se:Name>
+          <se:Name>235 - 274</se:Name>
           <se:Description>
-            <se:Title>LA PAZ</se:Title>
+            <se:Title>235 - 274</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>LA PAZ</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>235.23999999999998067</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>274.42999999999994998</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#c08fca</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>29</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>LA UNION</se:Name>
+          <se:Name>274 - 314</se:Name>
           <se:Description>
-            <se:Title>LA UNION</se:Title>
+            <se:Title>274 - 314</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>LA UNION</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>274.42999999999994998</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>313.6199999999999477</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#b988c6</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>32</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>MORAZAN</se:Name>
+          <se:Name>314 - 353</se:Name>
           <se:Description>
-            <se:Title>MORAZAN</se:Title>
+            <se:Title>314 - 353</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>MORAZAN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>313.6199999999999477</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>352.80999999999994543</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#b382c2</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>36</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>SA MIGUEL</se:Name>
+          <se:Name>353 - 392</se:Name>
           <se:Description>
-            <se:Title>SA MIGUEL</se:Title>
+            <se:Title>353 - 392</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SA MIGUEL</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>352.80999999999994543</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SUP_PLAN</ogc:PropertyName>
+                <ogc:Literal>392</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#ad7bbd</se:SvgParameter>
+                  <se:SvgParameter name="fill">#80504d</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke/>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
               </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SA SALVADOR</se:Name>
-          <se:Description>
-            <se:Title>SA SALVADOR</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SA SALVADOR</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#a774b9</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SAN MIGUEL</se:Name>
-          <se:Description>
-            <se:Title>SAN MIGUEL</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SAN MIGUEL</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#a16eb5</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SAN SALVADOR</se:Name>
-          <se:Description>
-            <se:Title>SAN SALVADOR</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SAN SALVADOR</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#9b67b0</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SAN VICENTE</se:Name>
-          <se:Description>
-            <se:Title>SAN VICENTE</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SAN VICENTE</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#9560ac</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SANTA ANA</se:Name>
-          <se:Description>
-            <se:Title>SANTA ANA</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SANTA ANA</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#8e5aa8</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SONSONATE</se:Name>
-          <se:Description>
-            <se:Title>SONSONATE</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>SONSONATE</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#8853a3</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>USULUTAN</se:Name>
-          <se:Description>
-            <se:Title>USULUTAN</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>departamen</ogc:PropertyName>
-              <ogc:Literal>USULUTAN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#824c9f</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke/>
-              </se:Mark>
-              <se:Size>17</se:Size>
+              <se:Size>39</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
